@@ -7,59 +7,62 @@ export default function HomePage() {
       title: "URBANIA(17-seats)",
       rating: 4.8,
       passengers: 17,
-      type: "petrol",
+      type: "diesel",
       ac: true,
-      doors: 2,
       image: "/images/urbania-bbc.png",
       alt:"Happy group traveling in a tempo traveler through Varansi streets"
     },
     {
       title: "URBANIA(20-seats)",
-      rating: 4.8,
+      rating: 4.9,
       passengers: 20,
-      type: "desial",
+      type: "diesel",
       ac: true,
-      doors: 2,
       image: "/images/urbania.png",
        alt:"White tempo traveler parked in Varanasi city center"
 
     },
     {
       title: "URBANIA(26-seats)",
-      rating: 4.8,
+      rating: 4.7,
       passengers: 26,
-      type: "desial",
+      type: "diesel",
       ac: true,
-      doors: 2,
+      image: "/images/urbania.png"
+    },
+    {
+      title: "URBANIA(19-seats)",
+      rating: 4.9,
+      passengers: 19,
+      type: "diesel",
+      ac: true,
       image: "/images/urbania.png"
     },
     {
       title: "SWIFT DEZIRE",
-      rating: 4.8,
+      rating: 4.6,
       passengers: 4,
-      type: "desial",
+      type: "diesel",
       ac: true,
       doors: 4,
-      image: "/images/swift-dezire.png",
+      image: "/images/swit-white.avif",
       alt:"Happy group traveling in a car through Varanasi streets"
     },
     {
       title: "ERTIGA",
-      rating: 4.8,
+      rating: 4.9,
       passengers: 6,
-      type: "desial",
+      type: "diesel",
       ac: true,
-      doors: 4,
-      image: "/images/ertiga.png",
+      image: "/images/ertiga-red.avif",
       alt:"White tempo traveler parked in Varanasi city center"
     },
     {
       title: "INNOVA CRYSTA",
       rating: 4.8,
       passengers: 7,
-      type: "desial",
+      type: "diesel",
       ac: true,
-      doors: 4,
       image: "/images/innova-crysta.png",
       alt:"Spacious interior of tempo traveler with comfortable seating"
     },
@@ -139,18 +142,25 @@ export default function HomePage() {
               boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
               color: 'white',
             }}>
+              <div style={{ width: '100%', height: '180px', marginBottom: '16px', overflow: 'hidden' }}>
               <img
                 src={car.image}
                 alt={car.alt}
-                style={{ width: '100%', height: '180px', objectFit: 'contain', marginBottom: '16px' }}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+               
               />
+              </div>
               <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '8px' }}>{car.title}</h3>
               <p style={{ color: '#FBBF24', marginBottom: '8px' }}>⭐ {car.rating}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>👤 {car.passengers} Passengers</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>⚙ {car.type}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>❄ Air Conditioning</p>
-              <p style={{ fontSize: '0.9rem', marginBottom: '12px' }}>🚪 {car.doors} Doors</p>
-            <a href="tel:7800664900"> <button style={{
+            <a href="tel:7800664900"> <button className="call-button" style={{
                 backgroundColor: '#FBBF24',
                 color: '#000',
                 padding: '10px 16px',
@@ -158,7 +168,9 @@ export default function HomePage() {
                 borderRadius: '8px',
                 fontWeight: 'bold',
                 cursor: 'pointer',
-                marginTop: '8px'
+                marginTop: '8px',
+               transition: 'transform 0.1s ease-in-out'
+              
               }}>
                 Call now ➜
               </button>
@@ -166,7 +178,35 @@ export default function HomePage() {
             </div>
           ))}
         </div>
+          <footer style={{
+    backgroundColor: '#1E293B',
+    color: 'white',
+    textAlign: 'center',
+    padding: '24px 16px',
+    marginTop: '60px',
+    borderTop: '2px solid #334155',
+    borderRadius: '12px'
+  }}>
+    <p style={{ fontSize: '1rem' }}>
+      © {new Date().getFullYear()} Varanasi Tempo Traveller Rentals. All rights reserved.
+    </p>
+    <p style={{ fontSize: '0.9rem' }}>
+      📞 <a href="tel:7800664900" style={{ color: '#FBBF24', textDecoration: 'none', fontWeight: 'bold' }}>Call: 7800664900</a>
+    </p>
+    <p style={{ fontSize: '0.9rem' }}>
+    📸 <a
+      href="https://www.instagram.com/worldvt.vns/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: '#FBBF24', textDecoration: 'none', fontWeight: 'bold' }}
+    >
+      Follow us on Instagram
+    </a>
+  </p>
+  </footer>
       </main>
     </>
+    
   );
 }
+
