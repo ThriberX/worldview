@@ -4,64 +4,59 @@ import Head from 'next/head';
 export default function HomePage() {
   const cars = [
     {
-      title: "URBANIA(17-seats)",
+      title: "Traveller 3700WB12+D/17+D",
       rating: 4.8,
       passengers: 17,
-      type: "diesel",
       ac: true,
-      image: "/images/urbania-bbc.png",
+      image: "/images/traveller3050wb.png",
       alt:"Happy group traveling in a tempo traveler through Varansi streets"
     },
     {
-      title: "URBANIA(20-seats)",
+      title: "Traveller 4020WB19+D/20+D",
       rating: 4.9,
       passengers: 20,
-      type: "diesel",
       ac: true,
-      image: "/images/urbania.png",
+      image: "/images/Traveller4020WB.png",
        alt:"White tempo traveler parked in Varanasi city center"
 
     },
     {
-      title: "URBANIA(26-seats)",
+      title: "Traveller Wider Body LWB15+D/22+D/25+D",
       rating: 4.7,
       passengers: 26,
-      type: "diesel",
       ac: true,
-      image: "/images/urbania.png"
+      image: "/images/Traveller4020WB.png",
+        alt:"White tempo traveler parked in Varanasi city center"
     },
     {
-      title: "URBANIA(19-seats)",
+      title: "Traveller 4020WB 19+D",
       rating: 4.9,
       passengers: 19,
-      type: "diesel",
       ac: true,
-      image: "/images/urbania.png"
+      image: "/images/traveller3700wb.png",
+        alt:"White tempo traveler parked in Varanasi city center"
     },
     {
       title: "SWIFT DEZIRE",
       rating: 4.6,
       passengers: 4,
-      type: "diesel",
       ac: true,
       doors: 4,
-      image: "/images/swit-white.avif",
+      image: "/images/swit-white.png",
       alt:"Happy group traveling in a car through Varanasi streets"
     },
     {
       title: "ERTIGA",
       rating: 4.9,
       passengers: 6,
-      type: "diesel",
       ac: true,
-      image: "/images/ertiga-red.avif",
+      image: "/images/ertiga-red.png",
       alt:"White tempo traveler parked in Varanasi city center"
     },
     {
       title: "INNOVA CRYSTA",
       rating: 4.8,
       passengers: 7,
-      type: "diesel",
       ac: true,
       image: "/images/innova-crysta.png",
       alt:"Spacious interior of tempo traveler with comfortable seating"
@@ -158,7 +153,6 @@ export default function HomePage() {
               <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '8px' }}>{car.title}</h3>
               <p style={{ color: '#FBBF24', marginBottom: '8px' }}>⭐ {car.rating}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>👤 {car.passengers} Passengers</p>
-              <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>⚙ {car.type}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>❄ Air Conditioning</p>
             <a href="tel:7800664900"> <button className="call-button" style={{
                 backgroundColor: '#FBBF24',
