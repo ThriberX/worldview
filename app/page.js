@@ -4,15 +4,24 @@ import Head from 'next/head';
 export default function HomePage() {
   const cars = [
     {
-      title: "Traveller 3700WB12+D/17+D",
+      title: "Urbania 14/17 seater",
+      rating: 4.8,
+      passengers: 20,
+      ac: true,
+      image: "/images/hero-van-removebg-preview.png",
+      alt:"Spacious interior of tempo traveler with comfortable seating"
+    },
+    {
+      title: "Tempo Traveller 12/17 Seater",
       rating: 4.8,
       passengers: 17,
       ac: true,
       image: "/images/traveller3050wb.png",
       alt:"Happy group traveling in a tempo traveler through Varansi streets"
     },
+   
     {
-      title: "Traveller 4020WB19+D/20+D",
+      title: "Tempo Traveller 20/26 seater",
       rating: 4.9,
       passengers: 20,
       ac: true,
@@ -21,7 +30,7 @@ export default function HomePage() {
 
     },
     {
-      title: "Traveller Wider Body LWB15+D/22+D/25+D",
+      title: "Traveller Maharaja Luxury 12/19 seater",
       rating: 4.7,
       passengers: 26,
       ac: true,
@@ -29,7 +38,7 @@ export default function HomePage() {
         alt:"White tempo traveler parked in Varanasi city center"
     },
     {
-      title: "Traveller 4020WB 19+D",
+      title: "Tempo Traveller 17 Seater",
       rating: 4.9,
       passengers: 19,
       ac: true,
@@ -151,7 +160,7 @@ export default function HomePage() {
               />
               </div>
               <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '8px' }}>{car.title}</h3>
-              <p style={{ color: '#FBBF24', marginBottom: '8px' }}>⭐ {car.rating}</p>
+              <p style={{ color: '#FBBF29', marginBottom: '8px' }}>⭐ {car.rating}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>👤 {car.passengers} Passengers</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>❄ Air Conditioning</p>
             <a href="tel:7800664900"> <button className="call-button" style={{
