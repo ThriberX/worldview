@@ -90,7 +90,7 @@ export default function HomePage() {
         }}>
           <div style={{ flex: '1 1 400px', paddingRight: '20px' }}>
             <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '16px' }}>
-              Reliable Tempo Traveller Rentals in Varanasi
+              Reliable Tempo Traveller Rentals for Varanasi, Prayagraj, Ayodhya
             </h1>
             <p style={{ fontSize: '1rem', marginBottom: '24px' }}>
               We are ready to serve the best experience in car rental.
@@ -128,7 +128,7 @@ export default function HomePage() {
           borderRadius: '12px',
           marginBottom: '40px',
         }}>
-          Most popular cars rental deals
+          Most popular taxi Rental <span style={{color: '#FBBF24', fontWeight: 'bolder', fontSize:'40px'}}>Deals</span>
         </h2>
 
         {/* Car Cards */}
@@ -194,7 +194,7 @@ export default function HomePage() {
       © {new Date().getFullYear()} Varanasi Tempo Traveller Rentals. All rights reserved.
     </p>
     <p style={{ fontSize: '0.9rem' }}>
-      📞 <a href="tel:7800664900" style={{ color: '#FBBF24', textDecoration: 'none', fontWeight: 'bold' }}>Call: 7800664900</a>
+      📞 <a href="tel:7800664900" style={{ color: '#FBBF24', textDecoration: 'none', fontWeight: 'bold' }}>Call:+91 7800664900</a>
     </p>
     <p style={{ fontSize: '0.9rem' }}>
     📸 <a
