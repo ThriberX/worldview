@@ -8,7 +8,7 @@ export default function HomePage() {
       rating: 4.8,
       passengers: 20,
       ac: true,
-      image: "/images/hero-van-removebg-preview.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/hero-van-removebg-preview.png",
       alt:"Spacious interior of tempo traveler with comfortable seating"
     },
     {
@@ -16,7 +16,7 @@ export default function HomePage() {
       rating: 4.8,
       passengers: 17,
       ac: true,
-      image: "/images/traveller3050wb.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/traveller3050wb.png",
       alt:"Happy group traveling in a tempo traveler through Varansi streets"
     },
    
@@ -25,7 +25,7 @@ export default function HomePage() {
       rating: 4.9,
       passengers: 20,
       ac: true,
-      image: "/images/Traveller4020WB.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/Traveller4020WB.png",
        alt:"White tempo traveler parked in Varanasi city center"
 
     },
@@ -34,7 +34,7 @@ export default function HomePage() {
       rating: 4.7,
       passengers: 26,
       ac: true,
-      image: "/images/Traveller4020WB.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/Traveller4020WB.png",
         alt:"White tempo traveler parked in Varanasi city center"
     },
     {
@@ -42,7 +42,7 @@ export default function HomePage() {
       rating: 4.9,
       passengers: 19,
       ac: true,
-      image: "/images/traveller3700wb.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/traveller3700wb.png",
         alt:"White tempo traveler parked in Varanasi city center"
     },
     {
@@ -51,7 +51,7 @@ export default function HomePage() {
       passengers: 4,
       ac: true,
       doors: 4,
-      image: "/images/swit-white.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/swit-white.png",
       alt:"Happy group traveling in a car through Varanasi streets"
     },
     {
@@ -59,7 +59,7 @@ export default function HomePage() {
       rating: 4.9,
       passengers: 6,
       ac: true,
-      image: "/images/ertiga-red.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/ertiga-red.png",
       alt:"White tempo traveler parked in Varanasi city center"
     },
     {
@@ -67,7 +67,7 @@ export default function HomePage() {
       rating: 4.8,
       passengers: 7,
       ac: true,
-      image: "/images/innova-crysta.png",
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/innova-crysta.png",
       alt:"Spacious interior of tempo traveler with comfortable seating"
     },
   ];
@@ -112,7 +112,7 @@ export default function HomePage() {
 <h3 style={{color:'#0F172A',fontSize:'0px'}}>Affordable Rates with No Hidden Charges</h3>
           </div>
           <img
-            src="/images/hero-van.png"
+            src="https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/hero-van.png"
             alt="Spacious tempo traveller parked in Varanasi ready for group travel"
             style={{ flex: '1 1 400px', maxWidth: '600px', width: '100%', borderRadius: '12px', marginTop: '20px' }}
           />
