@@ -95,7 +95,7 @@ export default function HomePage() {
             <p style={{ fontSize: '1rem', marginBottom: '24px' }}>
               We are ready to serve the best experience in car rental.
             </p>
-            <button style={{
+            <a href="tel:7800664900">  <button style={{
               backgroundColor: '#FBBF24',
               color: '#000',
               padding: '12px 20px',
@@ -104,8 +104,8 @@ export default function HomePage() {
               fontWeight: 'bold',
               cursor: 'pointer'
             }}>
-              Explore Now
-            </button>
+              Call Now ➜
+            </button></a>
             <h2 style={{color:'#0F172A' ,fontSize:'0px'}}>Why Choose Our Services ?</h2>
 <h3 style={{color:'#0F172A', fontSize:'0px'}}>Comfortable Seating for All Group Sizes</h3>
 <h3 style={{color:'#0F172A',fontSize:'0px'}}>Experienced Drivers Ensuring Safe Journeys</h3>
