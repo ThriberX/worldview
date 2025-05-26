@@ -95,7 +95,7 @@ export default function HomePage() {
             <p style={{ fontSize: '1rem', marginBottom: '24px' }}>
               We are ready to serve the best experience in car rental.
             </p>
-            <a href="tel:7800664900">  <button style={{
+            <a href="tel:7800664900">  <button className="call-button" style={{
               backgroundColor: '#FBBF24',
               color: '#000',
               padding: '12px 20px',
