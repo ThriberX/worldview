@@ -1,16 +1,25 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="w-full fixed top-0 left-0 z-50 backdrop-blur-md bg-white/20 border-b border-white/30">
-      <div className="relative max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="relative max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
         
         {/* Logo */}
-        <h1 className="text-xl font-bold text-black drop-shadow">WorldView</h1>
+        <div className="md:ml-0 ml-4"> 
+          <Image
+            src="/images/logo.jpg"
+            alt="WorldView Logo"
+            width={60} 
+            height={28}
+            className="object-contain"
+          />
+        </div>
 
         {/* Desktop Nav Links */}
         <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex space-x-6">
