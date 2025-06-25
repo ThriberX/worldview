@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="md:ml-0 ml-4"> 
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.png"
             alt="WorldView Logo"
             width={60} 
             height={28}
