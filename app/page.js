@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/navbar"
 import ServicesSection from "@/components/sections/services-section"
 import TopDestinationsSection from "@/components/sections/TopDestinations"
 import CarRentalShowcase from "@/components/sections/CarRentalShowcase"
+import ExperienceSection from "@/components/sections/ExperienceSection"
 
 export default function LandingPage() {
     return (
@@ -12,6 +13,7 @@ export default function LandingPage() {
         <ServicesSection/>
         <TopDestinationsSection />
         <CarRentalShowcase />
+        <ExperienceSection />
       </main>
     )
 }

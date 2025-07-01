@@ -87,7 +87,7 @@ export default function CarRentalShowcase() {
             borderRadius: '16px',
             padding: '20px',
             textAlign: 'center',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+           boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
             color: 'white',
           }}>
             <div style={{ width: '100%', height: '180px', marginBottom: '16px', overflow: 'hidden' }}>
