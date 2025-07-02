@@ -8,6 +8,7 @@ export default function HeroSection() {
     <>
       {/* Hero Section */}
       <div
+       id="home"
         className="h-screen bg-cover bg-center bg-no-repeat relative flex items-start"
         style={{
           backgroundImage: "url('/images/home.png')",
@@ -23,7 +24,7 @@ export default function HeroSection() {
             Be prepared for the Travel <br />
             <span className="block">and beyond!</span>
           </h1>
-          <button className="mt-1 px-6 py-3 bg-black text-white rounded-full hover:bg-white hover:text-black transition">
+          <button className="mt-1 px-6 py-3 bg-black text-white rounded-full common-btn-effects hover:bg-white hover:text-black transition">
             Explore Destinations →
           </button>
         </div>
@@ -39,7 +40,7 @@ export default function HeroSection() {
             <p className="text-gray-700 mb-6">
               Explore rich traditions and heritage across regions.
             </p>
-            <button className="bg-[#dfb670] text-black font-medium px-4 py-2 rounded-full">
+            <button className="bg-[#dfb670] text-black font-medium px-4 py-2 rounded-full common-btn-effects">
               View Category
             </button>
           </div>
@@ -51,7 +52,7 @@ export default function HeroSection() {
             <p className="text-black/90 mb-6">
               Unleash thrill with handpicked outdoor experiences.
             </p>
-            <button className="bg-[#a23d29] text-black font-medium px-4 py-2 rounded-full">
+            <button className="bg-[#a23d29] text-black font-medium px-4 py-2 rounded-full common-btn-effects">
               Start Exploring
             </button>
           </div>
@@ -63,7 +64,7 @@ export default function HeroSection() {
             <p className="text-gray-700 mb-6">
               Discover peace through curated sacred escapes.
             </p>
-            <button className="bg-[#b6ceeb] text-black font-medium px-4 py-2 rounded-full">
+            <button className="bg-[#b6ceeb] text-black font-medium px-4 py-2 rounded-full common-btn-effects">
               Plan Tranquility
             </button>
           </div>

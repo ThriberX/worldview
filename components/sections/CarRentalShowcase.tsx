@@ -35,7 +35,7 @@ export default function CarRentalShowcase() {
   const router = useRouter(); 
 
   return (
-    <section className="bg-black text-white">
+    <section  id="rentals" className="bg-black text-white">
 
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 px-6 md:px-20 pt-10 pb-10">
         <div className="flex-1">
@@ -47,7 +47,7 @@ export default function CarRentalShowcase() {
           </p>
           <button 
             onClick={() => router.push('/cabs')}
-            className="bg-yellow-400 hover:bg-yellow-300 transition px-6 py-3 rounded-md text-black font-semibold"
+            className="bg-yellow-400 hover:bg-yellow-300 transition px-6 py-3 rounded-md text-black font-semibold common-btn-effects"
           >
             Explore Now
           </button>
@@ -107,7 +107,8 @@ export default function CarRentalShowcase() {
             <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>👤 {car.passengers} Passengers</p>
             <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>❄ Air Conditioning</p>
             <a href="tel:7800664900">
-              <button style={{
+              <button className="call-button transition-all duration-300 ease-in-out shadow-md hover:scale-105 
+               hover:shadow-lgactive:scale-98 active:shadow-sm active:translate-y-0.5" style={{
                 backgroundColor: '#FBBF24',
                 color: '#000',
                 padding: '10px 16px',
@@ -128,7 +129,7 @@ export default function CarRentalShowcase() {
       <div className="mt-12 mb-16 flex justify-center">
         <button
           onClick={() => router.push('/cabs')}
-          className="border border-white text-white hover:bg-white hover:text-black transition px-6 py-2 rounded-full text-sm font-medium"
+          className="border border-white text-white hover:bg-white hover:text-black transition px-6 py-2 rounded-full text-sm font-medium common-btn-effects "
         >
           Show all vehicles →
         </button>

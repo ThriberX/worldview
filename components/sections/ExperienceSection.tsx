@@ -17,12 +17,14 @@ export default function ExperienceSection() {
               </h2>
             </div>
           </div>
-
-          <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-4 py-2 rounded-md font-medium mt-2 mb-8 flex items-center gap-2 mx-auto md:mx-0">
+          
+          <a href="https://www.instagram.com/worldvt.vns/">
+          <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-4 py-2 rounded-md font-medium mt-2 mb-8 flex items-center gap-2 mx-auto md:mx-0 common-btn-effects">
             <FaInstagram className="text-lg" />
             @worldview
           </button>
-
+          </a>
+          
           <div className="flex gap-8 justify-center md:justify-start text-left">
             <div>
               <p className="text-2xl font-bold">10</p>
