@@ -14,7 +14,7 @@ export default function Navbar() {
           <Image
             src="/images/logo.png"
             alt="WorldView Logo"
-            width={60} 
+            width={40} 
             height={28}
             className="object-contain"
           />
