@@ -1,18 +1,25 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { FaStar, FaClock, FaUsers, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function TopDestinations() {
   return (
-    <section className="bg-black text-white py-12">
+    <section id="destinations" className="bg-black text-white py-12">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10">Top Destinations</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           <div className="bg-white text-black rounded-2xl overflow-hidden shadow-md hover:scale-105 transition duration-300">
-            <img src="/images/destination2.png" alt="Udaipur" className="w-full h-60 object-cover" />
+              <Image 
+              src="/images/destination2.png" 
+              alt="Udaipur" 
+              className="w-full h-60 object-cover"
+              width={600} 
+              height={240} 
+            />
             <div className="p-5 space-y-2">
               <div className="flex items-center gap-2 text-yellow-500 text-sm font-medium">
                 <FaStar /> 4.0 (22) <span className="text-pink-500">😍</span>
@@ -71,7 +78,7 @@ export default function TopDestinations() {
         </div>
 
         <div className="mt-10 text-center">
-          <button className="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition">
+          <button className="border border-white px-6 py-2 rounded-full common-btn-effects hover:bg-white hover:text-black transition">
             Explore all →
           </button>
         </div>

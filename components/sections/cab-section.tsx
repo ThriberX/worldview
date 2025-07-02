@@ -95,7 +95,8 @@ export default function CabRentalSection() {
             <p style={{ fontSize: '1rem', marginBottom: '24px' }}>
               We are ready to serve the best experience in car rental.
             </p>
-            <a href="tel:7800664900">  <button style={{
+            <a href="tel:7800664900">  <button 
+            className="common-btn-effects"style={{
               backgroundColor: '#FBBF24',
               color: '#000',
               padding: '12px 20px',
@@ -163,7 +164,8 @@ export default function CabRentalSection() {
               <p style={{ color: '#FBBF29', marginBottom: '8px' }}>⭐ {car.rating}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>👤 {car.passengers} Passengers</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>❄ Air Conditioning</p>
-            <a href="tel:7800664900"> <button className="call-button" style={{
+            <a href="tel:7800664900"> <button className="call-button transition-all duration-300 ease-in-out shadow-md hover:scale-105 
+               hover:shadow-lgactive:scale-98 active:shadow-sm active:translate-y-0.5" style={{
                 backgroundColor: '#FBBF24',
                 color: '#000',
                 padding: '10px 16px',

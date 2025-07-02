@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function ServicesSection() {
   return (
-    <div className="bg-black text-white py-5 px-6 md:px-20">
+    <div id="services" className="bg-black text-white py-5 px-6 md:px-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16 md:gap-24 md:ml-50">
         
         <div className="relative w-full md:w-1/2 flex justify-center">
