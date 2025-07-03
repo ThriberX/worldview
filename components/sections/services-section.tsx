@@ -7,11 +7,11 @@ import React from 'react';
 export default function ServicesSection() {
   return (
     <div id="services" className="bg-black text-white py-5 px-6 md:px-20">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16 md:gap-24 md:ml-50">
+      <div className="max-w- mx-auto flex flex-col md:flex-row items-center md:items-start gap-16 ">
         
         <div className="relative w-full md:w-1/2 flex justify-center">
           <div className="absolute top-4 left-4 w-full h-full bg-gray-300 rounded-3xl z-0"></div>
-          <div className="relative z-10 rounded-3xl overflow-hidden max-h-[420px] w-full">
+          <div className="relative z-10 rounded-3xl overflow-hidden max-h-[420px]  w-full">
             <Image
               src="/images/image03.png"
               alt="Tour"
@@ -28,7 +28,7 @@ export default function ServicesSection() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 text-center md:text-left md:mt-20">
+        <div className="w-full md:w-1/2  lg:ml-30 text-center md:text-left md:mt-20">
     
           <div className="mb-10">
             <div className="w-fit mx-auto md:mx-0">
