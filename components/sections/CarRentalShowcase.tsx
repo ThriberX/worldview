@@ -10,7 +10,7 @@ const vehicles = [
     rating: 4.8,
     passengers: 20,
     ac: true,
-    image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/hero-van-removebg-preview.png",
+    image: "/images/hero-van-removebg-preview.png",
     alt:"Spacious interior of tempo traveler with comfortable seating"
   },
   {
@@ -18,7 +18,7 @@ const vehicles = [
     rating: 4.8,
     passengers: 17,
     ac: true,
-    image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/traveller3050wb.png",
+    image: "/images/traveller3050wb.png",
     alt:"Happy group traveling in a tempo traveler through Varansi streets"
   },
   {
@@ -26,7 +26,7 @@ const vehicles = [
     rating: 4.9,
     passengers: 6,
     ac: true,
-    image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/ertiga-red.png",
+    image: "/images/ertiga-red.png",
     alt:"White tempo traveler parked in Varanasi city center"
   },
 ];
