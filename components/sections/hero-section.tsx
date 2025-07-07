@@ -23,8 +23,32 @@ export default function HeroSection() {
        
         </div>
 
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6  mt-38   hide-above-700"> 
+        <button 
+             onClick={() => router.push('/cabs') }
+              className="bg-[rgba(243,231,209,0.8)] text-black  rounded-full hide-above-700 justify-center flex z-100 gap-4 mt-1 px-6 py-3">
+            
+            Cultural Immersion <FaLandmark className="text-xl"  />
+              </button>
+
+              <button 
+             onClick={() => router.push('/cabs') }
+              className="bg-[rgba(231,130,100,0.8)] text-black  rounded-full hide-above-700 justify-center flex z-100 gap-4 mt-1 px-6 py-3">
+            
+            Adventure Trails <FaHiking className="text-xl"  />
+              </button>
+
+              <button 
+             onClick={() => router.push('/cabs') }
+              className="bg-[#b6ceeb] text-black  rounded-full hide-above-700 justify-center flex items-center z-100 gap-4 mt-1 px-6 py-3">
+            
+            Spiritual Retreats <FaPrayingHands className="text-xl"  />
+              </button>
+
+              </div>
         {/* Cards Section */}
-        <div className="mt-20 pb-10">
+        <div className="mt-40 pb-10 hide-below-700 ">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Card 1 */}
             <div className="bg-[rgba(243,231,209,0.6)] rounded-2xl p-6 shadow-md force-card-width hide-below-700">
