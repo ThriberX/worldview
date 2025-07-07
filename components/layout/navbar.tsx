@@ -10,7 +10,8 @@ export default function Navbar() {
     <nav className="w-full fixed top-0 left-0 z-50 backdrop-blur-md bg-white/20 border-b border-white/30">
       <div className="relative max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
         
-        <div className="md:ml-0 ml-4"> 
+        <div className="md:ml-0 ml-4 "> 
+     
           <Image
             src="/images/logo.png"
             alt="WorldView Logo"

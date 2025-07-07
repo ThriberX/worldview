@@ -119,6 +119,12 @@ html {
   }
 }
 
+@media (min-width: 700px) {
+  .hide-above-700 {
+    display: none;
+  }
+}
+
 @media (max-width: 700px) {
   .force-card-width {
     max-width: 200px !important;
