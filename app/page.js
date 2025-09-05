@@ -1,198 +1,83 @@
-// 'use client'
-// import Head from 'next/head';
-
-// export default function HomePage() {
-//   const cars = [
-//     {
-//       title: "URBANIA (17-seats)",
-//       rating: 4.8,
-//       passengers: 17,
-//       type: "Automatic",
-//       ac: true,
-//       doors: 2,
-//       image: "/images/urbania.png"
-//     },
-//     {
-//       title: "URBANIA (20-seats)",
-//       rating: 4.8,
-//       passengers: 20,
-//       type: "Automatic",
-//       ac: true,
-//       doors: 2,
-//       image: "/images/urbania.png"
-//     },
-//     {
-//       title: "URBANIA (26-seats)",
-//       rating: 4.8,
-//       passengers: 26,
-//       type: "Automatic",
-//       ac: true,
-//       doors: 2,
-//       image: "/images/urbania.png"
-//     },
-//     {
-//       title: "SWIFT DEZIRE",
-//       rating: 4.8,
-//       passengers: 4,
-//       type: "Automatic",
-//       ac: true,
-//       doors: 4,
-//       image: "/images/swift-dezire.png"
-//     },
-//     {
-//       title: "ERTIGA",
-//       rating: 4.8,
-//       passengers: 6,
-//       type: "Automatic",
-//       ac: true,
-//       doors: 4,
-//       image: "/images/ertiga.png"
-//     },
-//     {
-//       title: "INNOVA CRYSTA",
-//       rating: 4.8,
-//       passengers: 7,
-//       type: "Automatic",
-//       ac: true,
-//       doors: 4,
-//       image: "/images/innova-crysta.png"
-//     },
-//   ];
-
-//   return (
-//     <>
-//       <Head>
-//         <title>Best Car Rentals in Your City | Urbania & More</title>
-//         <meta
-//           name="description"
-//           content="Find the best car rental deals including Urbania 17/20/26 seats, Swift, Ertiga, and Innova Crysta. Book now for reliable transport."
-//         />
-//         <link rel="canonical" href="https://yourdomain.com/" />
-//         <meta name="robots" content="index, follow" />
-//       </Head>
-
-//       <main className="px-6 py-10 max-w-7xl mx-auto">
-//         {/* Hero Section */}
-//         <section className="flex flex-col md:flex-row items-center justify-between gap-8">
-//           <div className="flex-1">
-//             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
-//               Best Car Rental Deals in Town
-//             </h1>
-//             <p className="text-lg text-gray-600 mb-6">
-//               From Urbania to Innova — Find the perfect ride for your travel, school, or events.
-//               Hassle-free bookings and trusted service.
-//             </p>
-//             <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl shadow-md transition">
-//               Book a Ride
-//             </button>
-//           </div>
-//           <img
-//             src="/images/hero-van.png"
-//             alt="Main van image"
-//             className="w-full md:w-1/2 rounded-xl"
-//           />
-//         </section>
-
-//         {/* Popular Cars */}
-//         <h2 className="text-3xl font-semibold mt-16 mb-8 text-center text-gray-800">
-//           Most Popular Car Rental Deals
-//         </h2>
-
-//         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-//           {cars.map((car, index) => (
-//             <div
-//               key={index}
-//               className="bg-white rounded-xl shadow-md p-5 hover:shadow-lg transition border"
-//             >
-//               <img
-//                 src={car.image}
-//                 alt={car.title}
-//                 className="w-full h-48 object-contain mb-4"
-//               />
-//               <h3 className="text-xl font-semibold text-gray-700 mb-1">{car.title}</h3>
-//               <p className="text-yellow-500 mb-1">⭐ {car.rating}</p>
-//               <p className="text-gray-600 text-sm mb-1">
-//                 👤 {car.passengers} Passengers | ⚙ {car.type}
-//               </p>
-//               <p className="text-gray-600 text-sm mb-4">
-//                 ❄ AC Included | 🚪 {car.doors} Doors
-//               </p>
-//               <button className="w-full px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
-//                 Call Now ➜
-//               </button>
-//             </div>
-//           ))}
-//         </div>
-//       </main>
-//     </>
-//   );
-// }
 'use client';
 import Head from 'next/head';
 
 export default function HomePage() {
   const cars = [
     {
-      title: "URBANIA(17-seats)",
-      rating: 4.8,
-      passengers: 17,
-      type: "Auto",
-      ac: true,
-      doors: 2,
-      image: "/images/urbania.png"
-    },
-    {
-      title: "URBANIA(20-seats)",
+      title: "Urbania 14/17 seater",
       rating: 4.8,
       passengers: 20,
-      type: "Auto",
       ac: true,
-      doors: 2,
-      image: "/images/urbania.png"
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/hero-van-removebg-preview.png",
+      alt:"Spacious interior of tempo traveler with comfortable seating"
     },
     {
-      title: "URBANIA(26-seats)",
+      title: "Tempo Traveller 12/17 Seater",
       rating: 4.8,
-      passengers: 26,
-      type: "Auto",
+      passengers: 17,
       ac: true,
-      doors: 2,
-      image: "/images/urbania.png"
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/traveller3050wb.png",
+      alt:"Happy group traveling in a tempo traveler through Varansi streets"
+    },
+   
+    {
+      title: "Tempo Traveller 20/26 seater",
+      rating: 4.9,
+      passengers: 20,
+      ac: true,
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/Traveller4020WB.png",
+       alt:"White tempo traveler parked in Varanasi city center"
+
+    },
+    {
+      title: "Traveller Maharaja Luxury 12/19 seater",
+      rating: 4.7,
+      passengers: 26,
+      ac: true,
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/Traveller4020WB.png",
+        alt:"White tempo traveler parked in Varanasi city center"
+    },
+    {
+      title: "Tempo Traveller 17 Seater",
+      rating: 4.9,
+      passengers: 19,
+      ac: true,
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/traveller3700wb.png",
+        alt:"White tempo traveler parked in Varanasi city center"
     },
     {
       title: "SWIFT DEZIRE",
-      rating: 4.8,
+      rating: 4.6,
       passengers: 4,
-      type: "Auto",
       ac: true,
       doors: 4,
-      image: "/images/swift-dezire.png"
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/swit-white.png",
+      alt:"Happy group traveling in a car through Varanasi streets"
     },
     {
       title: "ERTIGA",
-      rating: 4.8,
+      rating: 4.9,
       passengers: 6,
-      type: "Auto",
       ac: true,
-      doors: 4,
-      image: "/images/ertiga.png"
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/ertiga-red.png",
+      alt:"White tempo traveler parked in Varanasi city center"
     },
     {
       title: "INNOVA CRYSTA",
       rating: 4.8,
       passengers: 7,
-      type: "Auto",
       ac: true,
-      doors: 4,
-      image: "/images/innova-crysta.png"
+      image: "https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/innova-crysta.png",
+      alt:"Spacious interior of tempo traveler with comfortable seating"
     },
   ];
 
   return (
     <>
       <Head>
-        <title>Best Car Rentals in Your City | Urbania & More</title>
+        <title>Tempo Traveler Rentals in Varanasi | Comfortable & Affordable Travel</title>
       </Head>
+      <meta name="description" content="Book reliable tempo traveler rentals in Varanasi for group travel. Enjoy comfort, affordability, and timely service. Reserve your ride today!"></meta>
 
       <main style={{ backgroundColor: '#0F172A', color: 'white', padding: '40px 24px', fontFamily: 'sans-serif' }}>
         {/* Hero Section */}
@@ -205,12 +90,12 @@ export default function HomePage() {
         }}>
           <div style={{ flex: '1 1 400px', paddingRight: '20px' }}>
             <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '16px' }}>
-              Enjoy your ride with our comfortable cars.
+              Reliable Tempo Traveller Rentals for Varanasi, Prayagraj, Ayodhya
             </h1>
             <p style={{ fontSize: '1rem', marginBottom: '24px' }}>
               We are ready to serve the best experience in car rental.
             </p>
-            <button style={{
+            <a href="tel:7800664900">  <button className="call-button" style={{
               backgroundColor: '#FBBF24',
               color: '#000',
               padding: '12px 20px',
@@ -219,12 +104,16 @@ export default function HomePage() {
               fontWeight: 'bold',
               cursor: 'pointer'
             }}>
-              Explore Now
-            </button>
+              Call Now ➜
+            </button></a>
+            <h2 style={{color:'#0F172A' ,fontSize:'0px'}}>Why Choose Our Services ?</h2>
+<h3 style={{color:'#0F172A', fontSize:'0px'}}>Comfortable Seating for All Group Sizes</h3>
+<h3 style={{color:'#0F172A',fontSize:'0px'}}>Experienced Drivers Ensuring Safe Journeys</h3>
+<h3 style={{color:'#0F172A',fontSize:'0px'}}>Affordable Rates with No Hidden Charges</h3>
           </div>
           <img
-            src="/images/hero-van.png"
-            alt="Hero van"
+            src="https://feture-seo.d2lmonhhyl427m.amplifyapp.com/images/hero-van.png"
+            alt="Spacious tempo traveller parked in Varanasi ready for group travel"
             style={{ flex: '1 1 400px', maxWidth: '600px', width: '100%', borderRadius: '12px', marginTop: '20px' }}
           />
         </section>
@@ -239,7 +128,7 @@ export default function HomePage() {
           borderRadius: '12px',
           marginBottom: '40px',
         }}>
-          Most popular cars rental deals
+          Most popular taxi Rental <span style={{color: '#FBBF24', fontWeight: 'bolder', fontSize:'40px'}}>Deals</span>
         </h2>
 
         {/* Car Cards */}
@@ -257,18 +146,24 @@ export default function HomePage() {
               boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
               color: 'white',
             }}>
+              <div style={{ width: '100%', height: '180px', marginBottom: '16px', overflow: 'hidden' }}>
               <img
                 src={car.image}
-                alt={car.title}
-                style={{ width: '100%', height: '180px', objectFit: 'contain', marginBottom: '16px' }}
+                alt={car.alt}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+               
               />
+              </div>
               <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '8px' }}>{car.title}</h3>
-              <p style={{ color: '#FBBF24', marginBottom: '8px' }}>⭐ {car.rating}</p>
+              <p style={{ color: '#FBBF29', marginBottom: '8px' }}>⭐ {car.rating}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>👤 {car.passengers} Passengers</p>
-              <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>⚙ {car.type}</p>
               <p style={{ fontSize: '0.9rem', marginBottom: '4px' }}>❄ Air Conditioning</p>
-              <p style={{ fontSize: '0.9rem', marginBottom: '12px' }}>🚪 {car.doors} Doors</p>
-              <button style={{
+            <a href="tel:7800664900"> <button className="call-button" style={{
                 backgroundColor: '#FBBF24',
                 color: '#000',
                 padding: '10px 16px',
@@ -276,14 +171,45 @@ export default function HomePage() {
                 borderRadius: '8px',
                 fontWeight: 'bold',
                 cursor: 'pointer',
-                marginTop: '8px'
+                marginTop: '8px',
+               transition: 'transform 0.1s ease-in-out'
+              
               }}>
                 Call now ➜
               </button>
+              </a>
             </div>
           ))}
         </div>
+          <footer style={{
+    backgroundColor: '#1E293B',
+    color: 'white',
+    textAlign: 'center',
+    padding: '24px 16px',
+    marginTop: '60px',
+    borderTop: '2px solid #334155',
+    borderRadius: '12px'
+  }}>
+    <p style={{ fontSize: '1rem' }}>
+      © {new Date().getFullYear()} Varanasi Tempo Traveller Rentals. All rights reserved.
+    </p>
+    <p style={{ fontSize: '0.9rem' }}>
+      📞 <a href="tel:7800664900" style={{ color: '#FBBF24', textDecoration: 'none', fontWeight: 'bold' }}>Call:+91 7800664900</a>
+    </p>
+    <p style={{ fontSize: '0.9rem' }}>
+    📸 <a
+      href="https://www.instagram.com/worldvt.vns/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: '#FBBF24', textDecoration: 'none', fontWeight: 'bold' }}
+    >
+      Follow us on Instagram
+    </a>
+  </p>
+  </footer>
       </main>
     </>
+    
   );
 }
+
